@@ -20,6 +20,8 @@ a:focus, a:hover {
 body {
 	font-family: 'Noto Serif', serif;
 	font-size: 18px;
+	display: grid;
+	grid-template-rows: 250px auto 250px;
 }
 
 h1, h2 {
@@ -59,13 +61,13 @@ p {
 }
 
 #footer-container {
-	
+	background-color: red;
 }
 
 #header-container {
-
+	background-color: green;
 }
 
 #main-container {
-
+	background-color: blue;
 }
